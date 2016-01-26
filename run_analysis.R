@@ -76,5 +76,4 @@ td <- rename(td, Subject = Group.1 , Activity = Group.2)
 ##Write new dataset
 write.table(td, "./DATA/UCI HAR Dataset/TidyData.txt",row.names = FALSE)
 
-############################################################################################################
 
