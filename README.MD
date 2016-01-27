@@ -18,14 +18,14 @@ Original data for the project can be found [here](https://d396qusza40orc.cloudfr
 
 ##Open Data
 The next step is to open the data into R. All the datasets needed for the project are read using read.table function. After de data is opened, there are the following datasets available for processing:
-*test:  Data Frame containing the test data
-*train: Data Frame containing the train data
-*vnames: Data Frame containing the names of the 561 variables for test and train data
-*alabeltest: Data Frame containing the codes of the activities for the test data
-*alabeltrain: Data Frame containing the codes of the activities for the train data
-*testS: Data Frame containing the subjects for the test data
-*trainS: Data Frame containing the subjects for the train data
-*labels: Data Frame containing the descriptive names of the activities
+* test:  Data Frame containing the test data
+* train: Data Frame containing the train data
+* vnames: Data Frame containing the names of the 561 variables for test and train data
+* alabeltest: Data Frame containing the codes of the activities for the test data
+* alabeltrain: Data Frame containing the codes of the activities for the train data
+* testS: Data Frame containing the subjects for the test data
+* trainS: Data Frame containing the subjects for the train data
+* labels: Data Frame containing the descriptive names of the activities
 
 ##Data Process
 Once all the data needed for the project has been read, the script will process it in order to make it tidy.
