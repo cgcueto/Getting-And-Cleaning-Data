@@ -1,7 +1,7 @@
 #Getting and Cleaning Data: Course Project
 ##Introduction
 
-This repo contains the work for final assignment of the Coursera course "Getting and Cleaning data".
+This documents explains how the script run_analysis.R works. This script has been developped for the final assignment of the Coursera course "Getting and Cleaning data".
 
 The script does the following:
 
@@ -11,10 +11,12 @@ The script does the following:
 4. Appropriately labels the data set with descriptive variable names.
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
+The script uses *dplyr*, *data.table* and *downloader* packages.
+
 ##Download
 The first step is to download the data from the address provided in the instructions. The script downloads and unzips the data and saves it in a folder called DATA under the working directory.
 
-Original data for the project can be found [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+Original data for the project can be found [here.](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 
 ##Open Data
 The next step is to open the data into R. All the datasets needed for the project are read using read.table function. After de data is opened, there are the following datasets available for processing:
